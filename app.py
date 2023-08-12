@@ -8,7 +8,7 @@ learn_inf = load_learner('export.pkl')
 
 title = "Fruit Classifier"
 description = "A fruit classifier trained on a subset of the Fruit-262 dataset with fastai."
-article="<p style='text-align: center'><a href='https://github.com/MisFaken/Clothing-segmentation-and-color-extraction-with-Self-Correction-Human-Parsing' target='_blank'> Github </a></p>"
+article="<p style='text-align: center'><a href='https://github.com/MisFaken/fruit_classifier_fastai' target='_blank'> Github </a></p>"
 examples = ['examples/' + f for f in os.listdir('examples') if f.endswith('.jpg')]
 
 labels = learn_inf.dls.vocab
